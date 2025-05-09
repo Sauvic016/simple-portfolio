@@ -44,7 +44,7 @@ export default function Home() {
             {`I'm building`}{" "}
             <Link
               className="border-b inline-flex items-center gap-1 border-neutral-800 border-dashed text-neutral-300 hover:text-yellow-200 transition-all undefined"
-              href={`${process.env.REVIEWSNAP_URL}`}
+              href={`${process.env.NEXT_PUBLIC_REVIEWSNAP_URL}`}
             >
               ReviewSnap
             </Link>{" "}
